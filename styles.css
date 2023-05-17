@@ -19,11 +19,28 @@ body{
 }
 
 .side-bar {
-    background-color: red;
+    background-color: #f7f7f7;
     height: 100%;
     width: 15;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
+.circle {
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #c7d0d8;
+
+}
 .right-panel {
     background-color: green;
     height: 100%;
